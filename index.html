@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Order History - Admin Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <main class="content">
+            <header class="topbar">
+                <div class="search-box">
+                    <input type="text" placeholder="Search...">
+                    <i class="fas fa-search"></i>
+                </div>
+
+                <div class="profile">
+                    <span class="green-dot"></span>
+                    <img src="./logo.jpg" alt="User">
+                    <span class="username">Abu_Tarek</span>
+
+                </div>
+
+            </header>
+
+            <section class="order-history">
+                <h2>Order Details</h2>
+                <div class="filters">
+                    <button class="active">All Orders</button>
+                    <button>Delivered</button>
+                    <button>Pending</button>
+                    <button>Cancelled</button>
+                    <input type="date" class="date-time">
+
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Payment</th>
+                            <th>Delivery Time</th>
+
+                            <th>Status</th>
+                            <th>Total</th>
+                            <th>view more</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Ahmed Nasser</td>
+                            <td>Cash</td>
+                            <td>3 min</td>
+
+                            <td class="delivered">Delivered</td>
+                            <td>£20.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Mohamed Tarek</td>
+                            <td>credit card</td>
+                            <td>49 min</td>
+
+                            <td class="pending">Pending</td>
+                            <td>£14.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Karim Hossam</td>
+                            <td>Cash</td>
+                            <td>3 min</td>
+
+                            <td class="delivered">Delivered</td>
+                            <td>£20.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>#2832</td>
+                            <td>Youssef Adel</td>
+                            <td>credit card</td>
+                            <td>49 min</td>
+
+                            <td class="cancelled">Cancelled</td>
+                            <td>£14.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>#2832</td>
+                            <td>Amr Ibrahim</td>
+                            <td>credit card</td>
+                            <td>3 min</td>
+
+                            <td class="delivered">Delivered</td>
+                            <td>£20.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Omar El-Sayed</td>
+                            <td>Cash</td>
+                            <td>3 min</td>
+
+                            <td class="delivered">Delivered</td>
+                            <td>£20.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Sherif Hassan</td>
+                            <td>Cash</td>
+                            <td>49 min</td>
+
+                            <td class="cancelled">Cancelled</td>
+                            <td>£14.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+                                </div>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>#2832</td>
+                            <td>Walid Gamal</td>
+                            <td>credit card</td>
+                            <td>49 min</td>
+
+                            <td class="cancelled">Cancelled</td>
+                            <td>£14.00</td>
+                            <td>
+                                <button class="view">view more</button>
+                            </td>
+                            <td class="action">
+                                <button class="options">...</button>
+                                <div class="dropdown">
+                                    <div class="edit-btn">
+                                        <i class="fas fa-pen" style="color: #585656d3;"></i>
+                                        <button class="edit">Edit</button>
+
+                                    </div>
+                                    <div class="delete-btn">
+                                        <i class="fas fa-trash" style="color: #f14141;"></i>
+
+                                        <button class="delete">Delete</button>
+                                    </div>
+
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+
+
+
+
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="details">Order Details</h2>
+            <p><strong>Order ID:</strong> <span id="orderId"></span></p>
+            <p><strong>Name:</strong> <span id="customerName"></span></p>
+            <p><strong>Payment Method:</strong> <span id="paymentMethod"></span></p>
+            <p><strong>Delivery Time:</strong> <span id="deliveryTime"></span></p>
+            <p><strong>Status:</strong> <span id="orderStatus"></span></p>
+            <p><strong>Total:</strong> <span id="orderTotal"></span></p>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const viewButtons = document.querySelectorAll(".view");
+        const modal = document.getElementById("orderModal");
+        const closeBtn = document.querySelector(".close");
+
+
+        viewButtons.forEach((button) => {
+            button.addEventListener("click", function () {
+                let row = this.closest("tr");
+                document.getElementById("orderId").textContent = row.cells[0].textContent;
+                document.getElementById("customerName").textContent = row.cells[1].textContent;
+                document.getElementById("paymentMethod").textContent = row.cells[2].textContent;
+                document.getElementById("deliveryTime").textContent = row.cells[3].textContent;
+                document.getElementById("orderStatus").textContent = row.cells[4].textContent;
+                document.getElementById("orderTotal").textContent = row.cells[5].textContent;
+
+                modal.style.display = "block";
+            });
+        });
+
+
+
+        closeBtn.addEventListener("click", function () {
+            modal.style.display = "none";
+        });
+
+        window.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        });
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+
+        document.querySelectorAll(".options").forEach(button => {
+            button.addEventListener("click", function (event) {
+                event.stopPropagation();
+                let dropdown = this.nextElementSibling;
+
+
+                document.querySelectorAll(".dropdown").forEach(menu => {
+                    if (menu !== dropdown) menu.style.display = "none";
+                });
+
+
+                dropdown.style.display = (dropdown.style.display === "block") ? "none" : "block";
+            });
+        });
+
+
+        document.addEventListener("click", function () {
+            document.querySelectorAll(".dropdown").forEach(menu => {
+                menu.style.display = "none";
+            });
+        });
+
+
+        document.querySelectorAll(".dropdown").forEach(dropdown => {
+            dropdown.addEventListener("click", function (event) {
+                event.stopPropagation();
+            });
+        });
+
+
+        document.querySelectorAll(".edit").forEach(button => {
+            button.addEventListener("click", function () {
+                let row = this.closest("tr");
+                let orderId = row.cells[0].textContent;
+                alert("Edit Order: " + orderId);
+            });
+        });
+
+
+        document.querySelectorAll(".delete").forEach(button => {
+            button.addEventListener("click", function () {
+                let row = this.closest("tr");
+                let orderId = row.cells[0].textContent;
+                if (confirm("Are you sure you want to delete Order " + orderId + "?")) {
+                    row.remove();
+                }
+            });
+        });
+    });
+
+
+
+</script>
+
+
+</html>
