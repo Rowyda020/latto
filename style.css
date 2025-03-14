@@ -407,17 +407,8 @@ td {
         font-size: 14px;
     }
     
-    .logo {
-        font-size: 24px;
-        margin-bottom: 40px;
-    }
-    
-    .menu li {
-        margin: 30px 0;
-        font-size: 16px;
-        padding: 10px;
-    }
-    
+   
+  
     .view {
         padding: 5px;
         font-size: 10px;
@@ -430,3 +421,66 @@ td {
     
 }
    
+@media screen and (max-width: 460px){
+
+
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .topbar {
+        justify-content: space-around;
+       
+    }
+    .search-box input {
+        width: 100px;
+        font-size: 10px;
+    }
+    
+    .date-time {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    
+    .filters {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+    .filters button {
+        margin-bottom: 5px;
+    }
+    
+    table th, table td {
+        padding: 10px 5px;
+        font-size: 8px;
+        
+    }
+    
+    
+    .modal-content {
+        width: 90%;
+        margin: 30% auto;
+    }
+    
+   
+    
+    .filters button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+ 
+    .view {
+        padding: 5px;
+        font-size: 8px;
+        font-weight: 200;
+        
+    }
+    
+    .username{
+        font-size: 8px;
+    }
+}
